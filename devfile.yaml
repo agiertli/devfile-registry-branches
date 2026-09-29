@@ -1,0 +1,13 @@
+schemaVersion: 2.2.2
+metadata:
+  name: python-2cpu
+  displayName: Python (2 CPU)
+  description: Python development environment with 2 CPU limit
+  tags:
+    - Python
+components:
+  - name: dev
+    container:
+      image: registry.redhat.io/devspaces/udi-rhel9:3.30-1787764814
+      cpuLimit: "2"
+      memoryLimit: 4Gi
