@@ -13,7 +13,7 @@ data:
         "displayName": "Python (2 CPU)",
         "description": "Python development environment with 2 CPU limit",
         "tags": ["Python", "UDI"],
-        "url": "https://github.com/agiertli/devfile-registry-branches/tree/python-2cpu",
+        "url": "https://github.com/agiertli/devfile-registry-branches/tree/main/PYTHON/2CPU",
         "icon": {
           "base64data": "",
           "mediatype": "image/png"
@@ -23,7 +23,7 @@ data:
         "displayName": "Python (4 CPU)",
         "description": "Python development environment with 4 CPU limit",
         "tags": ["Python", "UDI"],
-        "url": "https://github.com/agiertli/devfile-registry-branches/tree/python-4cpu",
+        "url": "https://github.com/agiertli/devfile-registry-branches/tree/main/PYTHON/4CPU",
         "icon": {
           "base64data": "",
           "mediatype": "image/png"
