@@ -11,3 +11,10 @@ components:
       image: registry.redhat.io/devspaces/udi-rhel9:3.30-1787764814
       cpuLimit: "2"
       memoryLimit: 4Gi
+projects:
+  - name: python-2cpu
+    git:
+      checkoutFrom:
+        revision: cloned
+      remotes:
+        origin: https://github.com/agiertli/devfile-registry-branches.git

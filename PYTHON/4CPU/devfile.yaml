@@ -1,0 +1,20 @@
+schemaVersion: 2.2.2
+metadata:
+  name: python-4cpu
+  displayName: Python (4 CPU)
+  description: Python development environment with 4 CPU limit
+  tags:
+    - Python
+components:
+  - name: dev
+    container:
+      image: registry.redhat.io/devspaces/udi-rhel9:3.30-1787764814
+      cpuLimit: "4"
+      memoryLimit: 8Gi
+projects:
+  - name: python-4cpu
+    git:
+      checkoutFrom:
+        revision: cloned
+      remotes:
+        origin: https://github.com/agiertli/devfile-registry-branches.git

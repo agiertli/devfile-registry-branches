@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: getting-started-samples
+  namespace: devspaces
+  labels:
+    app.kubernetes.io/part-of: che.eclipse.org
+    app.kubernetes.io/component: getting-started-samples
+data:
+  my-samples.json: |
+    [
+      {
+        "displayName": "Python (2 CPU)",
+        "description": "Python development environment with 2 CPU limit",
+        "tags": ["Python", "UDI"],
+        "url": "https://github.com/agiertli/devfile-registry-branches/tree/python-2cpu",
+        "icon": {
+          "base64data": "",
+          "mediatype": "image/png"
+        }
+      },
+      {
+        "displayName": "Python (4 CPU)",
+        "description": "Python development environment with 4 CPU limit",
+        "tags": ["Python", "UDI"],
+        "url": "https://github.com/agiertli/devfile-registry-branches/tree/python-4cpu",
+        "icon": {
+          "base64data": "",
+          "mediatype": "image/png"
+        }
+      }
+    ]
